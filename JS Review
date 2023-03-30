@@ -1,0 +1,82 @@
+The different data types (primitive and non-primitive) and how to use them.
+
+Primitive:
+Boolean: true or false, 
+number: represents a numeric value,
+string: words,
+undefined, 
+null: absolutely nothing,
+-has no methods or properties
+
+Nonprimitive: 
+
+Objects 
+
+
+Difference between variables, parameters, and arguments.
+
+Variable - named data storage 
+Parameters - what you pass into the  function
+Arguments - a value (primitive or object) passed as an input to a function
+
+Describe a step by step on how JavaScript runs.
+
+The step by step functionality of Javascript is referred to as the Call Stack. The Call Stack is a mechanism for an interpreter to keep track of a place in a script that calls multiple functions. It works top-down similar to a style sheet, but when it gets to a function (), it stops and completes the function, and carries out the rest of javascript within the project.
+
+Scoping: when and what javascript can see & use
+Scope is a concept that refers to where values and functions can be accessed.
+Global scope (a value/function in the global scope can be used anywhere in the entire program)
+
+Global scope example: When setting a variable up at the top of the page from HTML you can make it global because you’ll be grabbing those from the functions and objects 
+You can always grab it and it will be accessible which makes it global
+
+Step by step how for loops work (how the computer repeats steps so you don’t have to)
+Steps: initializer, condition, body, come back up to the final step 
+
+Difference between while and for loop
+For loop: same as while loop but it will stop running when a conditionals becomes false 
+ While loop: while the condition is true the loop will run. stopping point included to avoid infinite loop (and beyond)
+
+Type conversions: converting datatypes from one to the other ex.(string<->array) or 
+(number<->string) 
+.split- splits a string to an array
+.join- array to string 
+.toString- number to string 
+Number()- string to number 
+
+
+
+When and how to use if else conditionals, how to build conditions (expressions that produce a boolean) .
+
+Conditions are meant to return a boolean, to see if if a value is true or false. To build conditionals, there is; if, else if and else (if this is true, then do this, if not go to the next ‘else if’, or ‘else’)
+
+Strings and how to manipulate them.
+
+Strings are text that are surrounded by quotes. You can add strings together using concatenation ex. “the” + “best”. Template literals can be used in place of concatenation (surround entire statement in backticks)
+
+Looping through strings/Looping through arrays.
+
+The for..of loop in JavaScript allows you to iterate over iterable objects (arrays, sets, maps, strings etc).
+
+
+Arrays, how to manipulate them, remove stuff, add stuff, call stuff.
+
+.push() - adds items to the end of an array
+.pop()- removes last item of array
+.shift()- removes first element from array and returns removed element
+	.unshift()- adds element to beginning of array and returns a new length
+
+
+Objects: creating object literals, instance objects (with constructors), creating and calling 
+properties and methods, prototypes.
+	
+object literal is created by simply setting its properties within a pair of curly braces.
+Methods are nothing more than properties that hold function values. This is a simple method:
+let rabbit = {};
+rabbit.speak = function(line) {
+  console.log(`The rabbit says '${line}'`);
+};
+In JavaScript, every object has a special hidden property called [[Prototype]]. Think of it like a secret link between objects. This link helps objects to share things like methods and properties with each other.
+
+
+Prototypes are the ways objects can inherit different (methods?)…from each other

@@ -60,3 +60,44 @@ class MakeCar {
     }
     
 }
+
+
+function greet(name) {
+  return `Hello, ${name} how are you doing today?`; // returns string with name temp literal  
+}
+
+function greet(name){
+    return `Hello, ${name} how are you doing today?`;
+}
+
+function greet(name){
+    return `Hello, ${name} how are you doing today?`;
+}
+
+function greet(name){
+    return `Hello, ${name} how are you doing today?`;
+}
+
+function greet(name){
+    return `Hello, ${name} how are you doing today?`;
+}
+
+function greet(name){
+    return `Hewllo, ${name} how  are you doing today?`; // returns string with name temp literal
+}
+
+function greet(name){
+    return `hello, ${name} how are you doing today?`;
+}
+
+function greet(name){
+    return ` Hello, ${name} How are you doing today?`;
+}
+
+function greet(name){
+    return `hello, ${name} How are you doing today?`;
+}
+
+function greet(name){
+    return `Hello, ${name} how are you doing today?`;
+}

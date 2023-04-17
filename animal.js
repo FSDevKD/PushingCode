@@ -19,8 +19,14 @@
 
 // In the end, click "Submit" to submit your code pass this kata.
 
-function animal(dog) {
-    name: 'Dog' , 
-    legs: 4 , 
-    color: 'white'
+// function animal(dog) {
+//     this.name: 'Dog' , 
+//     legs: 4 , 
+//     color: 'white'
+// }
+
+function animal(dog){
+    this.name: 'dog',
+    this.legs: 4,
+    this.color: 'white'
 }

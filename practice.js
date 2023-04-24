@@ -181,3 +181,46 @@ function hoopCount(n){
         return "Keep at it until you get it";
     }
 }
+
+function duplicateCount(text){
+  const textCount ={};
+  const lowerCase = text.toLowerCase();
+  for( let i = 0; i < lowerCase.length; i++){
+    const char = lowerCase.charAt(i);
+    if(textCount[char]){
+      textCount[char]++;
+    } else {
+      textCount[char] = 1;
+    }
+  }
+  let count = 0;
+  for(const char in textCount){
+    if(textCount[char] > 1){
+      count++;
+    }
+  }
+  return count;
+}
+
+function duplicateCount(text){
+    const textCount = {};
+    const lowerCase= text.toLowerCase();
+
+    for( let i = 0; i < lowerCase.length; i++){
+        const char = lowerCase.charAt(i);
+        if(textCount[char]){
+            textCount[char]++;
+        } else {
+            textCount[char]= 1
+        }
+    }
+
+    let count = 0; 
+    for( const char in textCount){
+        if(textCount[char]> 1){
+            count++
+        }
+    }
+
+    return count 
+}

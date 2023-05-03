@@ -21,7 +21,7 @@ https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/train/javascript
 */
 
 function duplicateCount(text){
-  const textCount ={};
+  const textCount = {};
   const lowerCase = text.toLowerCase();
   
   for( let i = 0; i < lowerCase.length; i++){

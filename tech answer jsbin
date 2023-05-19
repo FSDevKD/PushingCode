@@ -1,0 +1,133 @@
+ON A STORE RUN TECH QUESTIONS 8:15
+
+*   STEAL LEONS TIMER PUT 3 MIN ON CLOCK
+
+What are data attributes good for?
+Allows us to store informationon the DOM
+     allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes, or extra properties on DOM
+
+["What does * { box-sizing: border-box; } do? What are its advantages?"]
+    Well box sizing sets the limits of the container. Its keeps the contents for spilling over.
+
+Explain how prototype inheritance works?
+    Prototype inheritance is basically a object of an object. And its inheriting the parent values of that object. So this.car or this.house
+
+What is asynchronous programming? and why is it important?
+    Well its running the code together allowing all the functions to be executed at the same time.
+
+what is the process.nextTick()?
+             A. - EVERYTIME AND EVENT LOOP TAKES A FULL TRIP WE CALL IT A TICK When we pass a function to process.nextTick() , 
+            we instruct the engine to invoke this function at the end of the current operation, before the next event loop tick starts
+
+Demonstrate insert sort and explain when you might use it?
+??????????????????????????????????????????????????????????
+
+Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
+    i had to build a game where the character would walk x amount of blocks and then return to the origin. However it was my first time running into the use of switches. Using the switches i was able to direct the character to walk and count squares. it was a good way to learn how to use switches?????? ehhhhhhhhh takeAWalk.js 
+
+
+Why you would use a src set attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
+    its telling you where the image is coming from so it could be a url. it could be coming from inforation in the database or it could be included in a image file in its correct folder.
+
+"Describe what you like and dislike about the CSS preprocessors you have used.
+    ????????????????????????????????????????
+
+Explain the difference between synchronous and asynchronous functions.
+    synchronous code wont run unless the last task has completed. and async runs all at once. This
+
+What is functional programming?'
+    functional programming is the process of coding with a bunch of smaller functions to create a bigger picture function.
+
+why use node.js?
+????????????????
+
+what is recursion and give me an example using javascript.
+    Fizzbuz is recursion. Becasuse its generating an action every x amount of times. 
+
+
+
+let jsGeneral = ["Can you name two programming paradigms important for JavaScript app developers?" 
+- object-oriented programming and functional programming are important paradigms,
+
+"What is functional programming?",
+-Functional programming is a programming paradigm that constructs programs by applying and composing pure functions, avoiding shared state, mutable data, and side effects
+
+"What is the difference between classical inheritance and prototypal inheritance?"
+- How objects are created. In classical objects are created from classes. in prototype inheritance objects are created from objects.
+
+"What are the pros and cons of functional programming vs object-oriented programming?",
+OOP -> abstraction, inheritance, polymorphism, encapsulation 
+Func -> High order functions, purity no reuse of code, recursion, transparency, and easily evaulate problems
+
+"What are two-way data binding and one-way data flow, and how are they different?",
+-n one-way data binding information flows in only one direction, and is when the information is displayed, but not updated. In two-way data binding information flows in both directions, and is used in situations where the information needs to be updated.
+
+"What is asynchronous programming, and why is it important in JavaScript?"]
+-Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished. Once that task has finished, your program is presented with the result
+
+let node = ["What is Node.js? Where can you use it?",
+"Why use Node.js?",
+"What are the features of Node.js?",
+"How do you update NPM to a new version in Node.js?",
+"Why is Node.js Single-threaded?",
+"Explain callback in Node.js.",
+"What is callback hell in Node.js?",
+"How do you prevent/fix callback hell?",
+"Explain the role of REPL in Node.js.",
+"Name the types of API functions in Node.js.",
+"What are the functionalities of NPM in Node.js?",
+"What is the difference between Node.js and Ajax?",
+"What are “streams” in Node.js? Explain the different types of streams present in Node.js.",
+"Explain chaining in Node.js.",
+"What are Globals in Node.js?",
+"What is Event-driven programming?",
+"What is Event loop in Node.js work? And How does it work?",
+"What is the purpose of module.exports in Node.js?",
+"What is the difference between Asynchronous and Non-blocking?",
+"What is Tracing in Node.js?",
+"How will you debug an application in Node.js?",
+"Difference between setImmediate() vs setTimeout()?",
+"What is process.nextTick()",
+"What is package.json? What is it used for?",
+"What is libuv?",
+"What are some of the most popular modules of Node.js?",
+"What is EventEmitter in Node.js?"]
+
+let csTheory = ["What is recursion and give an example using javascript?",
+- is when a function calls itself until someone stops it
+
+"What are types?",
+?????????????????
+
+"What are data structures?",
+??????????????
+
+"What is an algorithm? ",
+
+"What is scope / lexical scope in javascript? ",
+- a set of variables, functions and objects that are accessible from a perticlur section of code. Lexical scope refers to the scope rules that are determined by the location of the function and blocks of code
+
+"What is polymorphism?",
+- a single method that can be used to perform different actions depending on the type of the object. 
+
+"What is encapsulation? ",
+-  Encapsulation is the concept of hiding the internal details of an object and providing a public interface for interacting with it
+
+"What is a Linked List",
+- A linked list is a data structure that consists of a sequence of nodes, where each node contains a value and a reference to the next node in the sequence. This allows for efficient insertion and removal of elements from the list.
+
+"What is a Doubly Linked List",
+"What is a Queue",
+"What is a Stack",
+"What is a Hash Table",
+"What is a Heap",
+"What is a Trie",
+"What is a Tree",
+"What is a Binary Search Tree",
+"What is a Disjoint Set",
+"What is a Bloom Filter",
+"Demonstrate Bubble Sort and explain when you might use it?",
+"Demonstrate Insertion Sort and explain when you might use it?",
+"Demonstrate Merge Sort and explain when you might use it?",
+"Demonstrate Quicksort and explain when you might use it?",
+"Auto Pass"]

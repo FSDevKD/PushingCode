@@ -224,3 +224,133 @@ function duplicateCount(text){
 
     return count 
 }
+
+function greet(name){
+    //your code here
+    return `Hello, ${name} how are you doing today?`
+  }
+
+function greet(name){
+    return `Hello, ${name} how are you doing today?`
+}
+
+function greet(name){
+    return `Hello, ${name} how are you doing today?`
+}
+
+function greet(name){
+    return `Hello, ${name} how are you doing today?`
+}
+
+function greet(name){
+    return `Hello, ${name} how are you doing today?`
+}
+
+function hoopCount (n) {
+   //your code goes here    
+  if( n >= 10){
+    return "Great, now move on to tricks"
+  } else {
+    return "Keep at it until you get it"
+  }
+}
+
+function hoopCount(n){
+    if (n >= 10){
+        return "Great, now move on to tricks"
+    } else {
+        return "Keep at it until you get it"
+    }
+}
+
+function hoopCount(n){
+    if (n >= 10){
+        return "Great, now move on to tricks"
+    } else {
+        return "Keep at it until you get it"
+    }
+}
+
+function hoopCount(n){
+    if ( n >= 10){
+        return "Great, now move on to tricks"
+    } else {
+        return "Keep at it until you get it"
+    }
+}
+
+function hoopCount(n){
+    if ( n >= 10){
+        return "Great, now move on to tricks"
+    } else {
+        return "Keep at it until you get it"
+    }
+}
+
+function makeUpperCase(str) {
+  // Code here
+  return str.toUpperCase();
+}
+
+function makeUpperCase(str){
+    return str.toUpperCase();
+}
+
+function makeUpperCase(str){
+    return str.toUpperCase();
+}
+
+function makeUpperCase(str){
+    return str.toUpperCase();
+}
+
+function makeUpperCase(str){
+    return str.toUpperCase();
+}
+
+function arrayDiff(a, b) {
+  return a.filter((x) => !b.includes(x));
+}
+
+function arrayDiff(a,b){
+    return a.filter((x) => !b.includes(x));
+}
+
+function arrayDiff(a,b){
+
+    return a.filter((x) => !b.includes(x));
+}
+
+function arrayDiff(a,b){
+    return a.filter((x)=> !b.includes(x));
+}
+
+function arrayDiff(a,b){
+    return a.filter((x)=> !b.includes(x));
+}
+
+var greet = function(name) {
+const cap = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()
+
+return `Hello ${cap}!`
+};
+
+var greet = function(name){
+    const cap = name.charAt(0).toUpperCase()+ name.slice(1).toLowerCase()
+    return ` Hello ${cap}!`
+}
+
+var greet = function(name){
+    const cap = name.charAt(0).toUpperCase()+name.slice(1).toLowerCase()
+    return `Hello ${cap}!`
+}
+
+var greet = function(name){
+    const cap = name.charAt(0).toUpperCase()+ name.slice(1).toLowerCase()
+    return `Hello ${cap}!`
+}
+
+var greet = function(name){
+    const cap = name.charAt(0).toUpperCase()+ name.slice(1).toLowerCase()
+    return `hello ${cap}!`
+}

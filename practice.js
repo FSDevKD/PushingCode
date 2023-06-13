@@ -354,3 +354,48 @@ var greet = function(name){
     const cap = name.charAt(0).toUpperCase()+ name.slice(1).toLowerCase()
     return `hello ${cap}!`
 }
+
+function countSheep(arrayOfSheep){
+    let count = 0
+    for(let i=0; i < arrayOfSheep.length; i++)
+        if(arrayOfSheep[i] === true){
+            count++;
+        }
+    return count;
+}
+
+function countSheep(arrayOfSheep){
+    let count = 0;
+    for(let i=0; i< arrayOfSheep.length; i++)
+        if(arrayOfSheep[i] === true){
+            count++
+        }
+    return count;
+}
+
+function countSheep(arrayOfSheep){
+    let count=0; 
+        for(let i=0; i < arrayOfSheep.length; i++)
+        if(arrayOfSheep[i] === true){
+            count++
+        }
+    return count;
+}
+
+function countSheep(arrayOfSheep){
+    let count=0;
+    for(let i=0; i<arrayOfSheep.length; i++)
+    if(arrayOfSheep[i] === true){
+        count++
+    }
+    return count;
+}
+
+function countSheep(arrayOfSheep){
+    let count = 0;
+    for(let i=0; i < arrayOfSheep.length; i++)
+        if(arrayOfSheep[i] === true){
+            count++
+        }
+    return count;
+}

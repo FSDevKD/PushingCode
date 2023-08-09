@@ -1,0 +1,92 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation Styles */
+li, nav {
+  list-style-type: none;
+  margin-right: 10px;
+  float: left;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+nav a:link, nav a:visited, nav a:hover {
+  color: goldenrod;
+}
+
+/* Section Styles */
+section {
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  clear: both;
+  padding: 20px 20px;
+  background-color: whitesmoke;
+  margin: 15px;
+  border-radius: 2px;
+  padding: 10%;
+}
+
+
+
+/* Logo Styles */
+.LOGO {
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Image Styles */
+img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Typography Styles */
+h1 {
+  color: goldenrod;
+  text-transform: capitalize;
+  vertical-align: center;
+  margin: 50px 10px;
+  font-size: 2vw;
+}
+
+p {
+  color: black;
+  width: 50%;
+  margin: auto;
+  font-size: 1.5vw;
+}
+

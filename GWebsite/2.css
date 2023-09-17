@@ -34,6 +34,7 @@ li, nav {
 
 nav a:link, nav a:visited, nav a:hover {
   color: goldenrod;
+    text-decoration: none;
 }
 
 /* Section Styles */
